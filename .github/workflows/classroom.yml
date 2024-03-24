@@ -24,6 +24,7 @@ jobs:
         expected-output: "[\\w, \\W]*10[\\w,\\W]*"
         comparison-method: regex
         timeout: 10
+        max-score: 10
     - name: IO3
       id: io3
       uses: education/autograding-io-grader@v1
